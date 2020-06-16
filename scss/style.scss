@@ -33,7 +33,7 @@ background-repeat: no-repeat;
 background-position: bottom center;
 background-size: 100% 100%;
 font-family: "Montserrat";
-margin: 0;
+
 
 }
 
@@ -45,7 +45,7 @@ background-color: #ffcfdf;
 /* background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);*/
 background-color: #fffdfb;
 font-family: "Montserrat";
-margin: 0;
+padding: 0;
 
 }
 
@@ -56,7 +56,9 @@ header {
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 1rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+margin-bottom: 2rem;
 
 
     nav {
@@ -76,8 +78,6 @@ padding: 1rem;
         }  
     }
 }
-
-header.fondoHeader {background-color: #c1c1c1;}
 
 footer {
 
@@ -147,21 +147,48 @@ h5 {font-size: 40px;}
 ul.menu {
 
 list-style: none;
-margin: 1rem;
+margin: 0;
+padding: 0;
+font-size: 18px ;
 
     li {
 
         color: black; 
         display: inline-block;
-        font-size: 22px;
         font-weight: bold; 
-        padding: 12px;
-        margin-left: 30px;
+        margin-left: 25px;
+        
 
         a {
 
             color: inherit;
             text-decoration: none;
+            margin-left: 0;
+
+        }
+    }
+}
+
+ul.menuIndex {
+
+list-style: none;
+margin: 0;
+padding: 0;
+font-size: 23px ;
+
+    li {
+
+        color: black; 
+        display: inline-block;
+        font-weight: bold; 
+        margin-left: 25px;
+        
+
+        a {
+
+            color: inherit;
+            text-decoration: none;
+            margin-left: 0;
 
         }
     }
@@ -169,10 +196,11 @@ margin: 1rem;
 
 li.box {
 
-border: 1px solid black;
-border-width: 7px;
+border-bottom: 4px solid black;
+
 
 }
+
 
 
 /*dropdown*/
@@ -221,7 +249,7 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
 
 font-family: "Montserrat";
 font-size: 20px;
-padding: 1rem;
+padding: 0;
 color: #364f6b;
 font-weight: bold;
 
@@ -335,17 +363,12 @@ align-items: flex-start;
 
 /* Responsive */
 
-body.contenedor {
-max-width: 1140;
-margin: auto;
-}
-
 img {
 max-width: 100%;
 }
 
 
-
+/*
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {body.contenedor {max-width: 540px; margin: auto;} }
 
@@ -357,6 +380,8 @@ max-width: 100%;
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {body.contenedor {max-width: 1140px; margin: auto;}}
+
+*/
 
 @media (max-width: 576px) {
 
