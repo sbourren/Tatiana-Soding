@@ -7215,26 +7215,50 @@ footer {
 h1, h2, h3, h4, h5 {
   font-family: "Lora"; }
 
-h1.tituloHome {
-  text-align: center;
-  padding: 0;
-  margin-bottom: 40px;
-  font-size: 65px;
-  text-decoration: none;
-  font-weight: bold;
-  letter-spacing: 8px;
-  color: black; }
-
 h1 {
   text-align: center;
   padding: 0;
-  font-size: 40px;
+  font-size: 35px;
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 4px;
   margin-bottom: 50px;
   margin-top: 30px; }
+  h1.tituloHome {
+    margin-bottom: 40px;
+    font-size: 65px;
+    letter-spacing: 8px;
+    color: black; }
 
+/*
+h1.tituloHome {
+
+text-align: center;
+padding: 0;
+margin-bottom: 40px;
+font-size: 65px;
+text-decoration: none;
+font-weight: bold;
+letter-spacing: 8px;
+color: black;
+
+}
+
+
+h1 {
+
+text-align: center;
+padding: 0;
+font-size: 35px;
+text-decoration: none;
+font-weight: bold;
+letter-spacing: 4px;
+margin-bottom: 50px;
+margin-top: 30px;
+
+}
+
+*/
 h2.hhome {
   text-align: center;
   padding: 0;
@@ -7257,7 +7281,7 @@ ul.menu {
     color: black;
     display: inline-block;
     font-weight: bold;
-    margin-left: 25px; }
+    margin-left: 40px; }
     ul.menu li a {
       color: inherit;
       text-decoration: none;
@@ -7267,16 +7291,15 @@ ul.menuIndex {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 23px; }
+  font-size: 25px; }
   ul.menuIndex li {
     color: black;
     display: inline-block;
     font-weight: bold;
-    margin-left: 25px; }
+    margin-left: 50px; }
     ul.menuIndex li a {
       color: inherit;
-      text-decoration: none;
-      margin-left: 0; }
+      text-decoration: none; }
 
 li.box {
   border-bottom: 4px solid black; }
@@ -7297,26 +7320,23 @@ li.box {
     background-color: #fdfdfd; }
     .card .card-body .card-title {
       font-family: "Lora";
-      font-size: 30px;
+      font-size: 22px;
       text-align: center;
       color: #364f6b;
       font-weight: bold; }
     .card .card-body .card-text {
       font-family: "Montserrat"; }
 
+.imgPerfil {
+  padding: 1rem; }
+
 /*Texto*/
 .mellamo {
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 17px;
   padding: 0;
   color: #364f6b;
   font-weight: bold; }
-
-p img {
-  float: right;
-  display: inline;
-  margin: 30px;
-  margin-top: 0px; }
 
 /*Formulario*/
 .margin {
@@ -7348,8 +7368,9 @@ button.btn {
   border-color: black;
   color: black; }
   button.btn:hover {
-    background-color: inherit;
-    color: black; }
+    background-color: #AF7AC5;
+    color: whitesmoke;
+    border-color: whitesmoke; }
 
 /*Imágenes y Videos*/
 .d-flex {
@@ -7384,7 +7405,7 @@ img {
 @media (min-width: 1200px) {body.contenedor {max-width: 1140px; margin: auto;}}
 
 */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   ul.menu {
     display: none; }
   h1 {
@@ -7392,6 +7413,6 @@ img {
   .d-flex {
     flex-direction: column; } }
 
-@media (min-width: 577px) {
+@media (min-width: 769px) {
   div.btn-group {
     display: none; } }
