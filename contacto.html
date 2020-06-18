@@ -26,7 +26,7 @@
             <i class="mdi mdi-menu"></i>
           </button>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="que-es.html"> Qué es el FS </a>
+            <a class="dropdown-item" href="que-es.html"> Biografía </a>
             <a class="dropdown-item" href="porfolio.html"> Portfolio </a>
             <a class="dropdown-item" href="recetas.html"> Recetas </a>
             <div class="dropdown-divider"></div>
@@ -55,7 +55,7 @@
         </nav>
       </section>
       <nav>
-        <a href="https://www.instagram.com/tatisoding/?hl=es-la"> <img src="fotos/home/logoig.png" width="65"> </a>
+        <a target="_blank" href="https://www.instagram.com/tatisoding/?hl=es-la"> <img src="fotos/home/logoig.png" width="65"> </a>
         <a href="https://www.facebook.com/tatiana.soding"> <img src="fotos/home/logofb.png" width="65"> </a>
       </nav>
   </header>
@@ -78,12 +78,31 @@
       <textarea name="comments" id="comments" placeholder="..."></textarea>
     </div>
     <div class="form-group">
-    <button type="submit" class="btn btn-outline-dark btn-lg"> <i class="mdi mdi-email-outline"></i> ENVIAR
+    <button type="button" class="btn btn-outline-dark btn-lg" data-toggle="modal" data-target="#exampleModal"> <i class="mdi mdi-email-outline"></i> ENVIAR
     </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          <img src="fotos/contacto10.svg">
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn outline-dark btn-lg">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
 
   </form>
-  <img src="fotos/recetas/garlic.svg" width="400px">
+  <img src="fotos/contacto/contacto4.svg" width="400px">
   </div>
 	<footer>
       	<p> Ejemplo SRL &copy; 2020 - Todos los derechos reservados</p>
