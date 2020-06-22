@@ -30,8 +30,8 @@ body.fondoHome {
 
 background-image: url("../fotos/fondos/fondodos.jpg");
 background-repeat: no-repeat;
-background-position: bottom center;
-background-size: 100% 100%;
+background-position: center center;
+background-size: cover;
 font-family: "Montserrat";
 
 
@@ -59,6 +59,7 @@ justify-content: space-between;
 padding-top: 1rem;
 padding-bottom: 1rem;
 margin-bottom: 2rem;
+
 
 
     nav {
@@ -203,7 +204,7 @@ font-size: 25px ;
         color: black; 
         display: inline-block;
         font-weight: bold; 
-        margin-left: 50px;
+        margin-left: 40px;
         
 
         a {
@@ -238,10 +239,12 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
 /*Cards*/
 
 .card {
-    border-color: blanchedalmond;
-    border-width: 5px;
+    
+    border-color: $titulos;
+    border-width: 2px;
     box-shadow: 1px 2px 4px #424242;
     padding: 1rem;
+    
     
     .card-body {
         background-color: #fdfdfd;
@@ -274,8 +277,9 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
 font-family: "Montserrat";
 font-size: 17px;
 padding: 0;
-color: #364f6b;
-font-weight: bold;
+color: $menu;
+font-weight: normal;
+
 
 
 }
@@ -399,9 +403,14 @@ max-width: 100%;
 
 @media (max-width: 768px) {
 
+ul.menuIndex {
+display: none;
+}
+    
 ul.menu {
 display: none;
 }
+
 h1 {font-size: 20px;}
 .d-flex {flex-direction: column;}
 
