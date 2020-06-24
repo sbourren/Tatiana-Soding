@@ -7164,7 +7164,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* Variables */
 .color-titulos {
-  color: #AF7AC5; }
+  color: #9c79e4; }
 
 .color-parrafo {
   color: #364f6b; }
@@ -7223,8 +7223,9 @@ h1 {
   font-weight: bold;
   letter-spacing: 4px;
   margin-bottom: 50px;
-  margin-top: 30px; }
+  margin-top: 10px; }
   h1.tituloHome {
+    margin-top: 30px;
     margin-bottom: 40px;
     font-size: 65px;
     letter-spacing: 8px;
@@ -7307,19 +7308,23 @@ li.box {
 /*dropdown*/
 .dropdown-menu {
   font-family: "Montserrat";
-  background-color: #ffcfdf;
-  background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%); }
+  background-color: #9c79e4; }
+
+.dropdown-item {
+  color: white;
+  font-weight: bold;
+  font-family: "Montserrat"; }
 
 /*Cards*/
 .card {
-  border-color: #AF7AC5;
+  border-color: #9c79e4;
   border-width: 2px;
   box-shadow: 1px 2px 4px #424242;
   padding: 1rem; }
   .card .card-body {
     background-color: #fdfdfd; }
     .card .card-body .card-title {
-      font-family: "Lora";
+      font-family: "Montserrat";
       font-size: 22px;
       text-align: center;
       color: #364f6b;
@@ -7351,24 +7356,37 @@ input {
   width: 250px;
   height: 40px;
   display: inline-block; }
+  input.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #9c79e4;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #9c79e4; }
 
 textarea {
   width: 450px;
   height: 250px;
   margin: 0;
   display: inline-block; }
+  textarea:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #9c79e4;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #9c79e4; }
 
 label {
   padding: 1rem;
-  font-size: 30px;
+  font-size: 20px;
   display: inline-block;
   font-family: "Montserrat"; }
 
 button.btn {
   border-color: black;
-  color: black; }
+  color: black;
+  font-family: "Montserrat"; }
   button.btn:hover {
-    background-color: #AF7AC5;
+    background-color: #9c79e4;
     color: whitesmoke;
     border-color: whitesmoke; }
 

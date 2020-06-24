@@ -5,13 +5,13 @@
 
 /* Variables */
 
-$titulos: #AF7AC5 ;
+$titulos: #9c79e4;
 $parrafo: #364f6b;
 $menu: black;
 
 $colors: (
 
-    titulos: #AF7AC5,
+    titulos: #9c79e4,
     parrafo: #364f6b,
     menu: black,
 );
@@ -106,9 +106,11 @@ text-decoration: none;
 font-weight: bold;
 letter-spacing: 4px;
 margin-bottom: 50px;
-margin-top: 30px;
+margin-top: 10px;
+
 
     &.tituloHome {
+    margin-top: 30px;
     margin-bottom: 40px;
     font-size: 65px;
     letter-spacing: 8px;
@@ -227,12 +229,17 @@ border-bottom: 4px solid black;
 
 /*dropdown*/
 
+
 .dropdown-menu {
 
 font-family: "Montserrat";
-background-color: #ffcfdf;
-background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+background-color: $titulos;
 
+}
+
+.dropdown-item {color: white;
+                font-weight: bold;
+                font-family: "Montserrat";
 }
 
 
@@ -251,7 +258,7 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
         
         
         .card-title { 
-            font-family: "Lora"; 
+            font-family: "Montserrat"; 
             font-size: 22px; 
             text-align: center; 
             color: #364f6b; 
@@ -304,38 +311,56 @@ align-items: center;
 
 input {
 
-width: 250px;
-height: 40px;
-display: inline-block;
-	
-	
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+
+    &.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: $titulos;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem $titulos;
+    
+}
+
 	
 }
 
 textarea {
 
-width: 450px;
-height: 250px;
-margin:0;
-display: inline-block;
+    width: 450px;
+    height: 250px;
+    margin:0;
+    display: inline-block;
 
-	
+    &:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: $titulos;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem $titulos;}
+
+
+    
 }
 
 label {
 
 padding: 1rem;
-font-size: 30px;
+font-size: 20px;
 display: inline-block;
-font-family: "Montserrat"
+font-family: "Montserrat" 
 
-}
+} 
 
 button.btn {
 
     border-color: black;
 
     color: black;
+
+    font-family: "Montserrat";
 
     &:hover {
         background-color: $titulos; 
