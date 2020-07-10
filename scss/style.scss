@@ -235,6 +235,7 @@ padding-left: 0;
 
 .card {
     
+    
     border-color: $titulos;
     border-width: 2px;
     box-shadow: 1px 2px 4px #424242;
@@ -255,6 +256,8 @@ padding-left: 0;
         
         .card-text {
             font-family: "Montserrat";
+            color: $parrafo;
+            line-height: 1.4;
         }
 
     }
@@ -270,9 +273,11 @@ padding-left: 0;
 .mellamo {
 
 font-family: "Montserrat";
-font-size: 17px;
+font-size: 15px;
+text-align: center;
+line-height: 1.4;
 padding: 0;
-color: $menu;
+color: $parrafo;
 font-weight: normal;
 
 }
@@ -332,9 +337,11 @@ textarea {
 
 button.btn {
 
+    font-size: 18px;
+    
     border-color: black;
 
-    color: black;
+    color: $parrafo;
 
     font-family: "Montserrat";
 
@@ -359,8 +366,16 @@ flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
 
+}
 
+div {
 
+    &.contacto {
+    
+    margin-top: 50px;
+    font-size: 19px;
+
+    }
 }
 
 /* Responsive */

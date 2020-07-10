@@ -7291,7 +7291,9 @@ ul.menu-index {
       color: #364f6b;
       font-weight: bold; }
     .card .card-body .card-text {
-      font-family: "Montserrat"; }
+      font-family: "Montserrat";
+      color: #364f6b;
+      line-height: 1.4; }
 
 .img-perfil {
   padding: 1rem; }
@@ -7299,9 +7301,11 @@ ul.menu-index {
 /*Texto*/
 .mellamo {
   font-family: "Montserrat";
-  font-size: 17px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.4;
   padding: 0;
-  color: black;
+  color: #364f6b;
   font-weight: normal; }
 
 /*Formulario*/
@@ -7336,8 +7340,9 @@ textarea {
     box-shadow: 1px 2px 4px #424242; }
 
 button.btn {
+  font-size: 18px;
   border-color: black;
-  color: black;
+  color: #364f6b;
   font-family: "Montserrat"; }
   button.btn:hover {
     background-color: #9c79e4;
@@ -7351,6 +7356,10 @@ button.btn {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center; }
+
+div.contacto {
+  margin-top: 50px;
+  font-size: 19px; }
 
 /* Responsive */
 img {
