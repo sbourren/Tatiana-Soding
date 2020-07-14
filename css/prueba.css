@@ -7242,7 +7242,7 @@ h2.hhome {
 h4 {
   text-align: center;
   padding: 0;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Montserrat";
   letter-spacing: 2px;
   margin-bottom: 70px;
@@ -7264,17 +7264,6 @@ ul.menu-index {
       text-decoration: none; }
     ul.menu-index li.box {
       border-bottom: 4px solid black; }
-
-/*dropdown*/
-.dropdown-menu {
-  background-color: #9c79e4;
-  opacity: 0.8;
-  text-transform: uppercase;
-  padding-left: 0; }
-  .dropdown-menu .dropdown-item {
-    color: white;
-    font-weight: bold;
-    font-family: "Montserrat"; }
 
 /*Cards*/
 .card {
@@ -7309,18 +7298,18 @@ ul.menu-index {
   font-weight: normal; }
 
 /*Formulario*/
-label {
+div label {
   padding: 1rem;
   padding-left: 0;
   font-size: 25px;
   display: inline-block;
   font-family: "Montserrat"; }
 
-input {
+div input {
   width: 250px;
   height: 40px;
   display: inline-block; }
-  input.form-control:focus {
+  div input.form-control:focus {
     color: #495057;
     background-color: #fff;
     border-color: #9c79e4;
