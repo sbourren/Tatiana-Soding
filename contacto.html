@@ -55,55 +55,65 @@
 
 	<h1 class="color-titulos"> Escribime! </h1>
   
-  <div class="d-flex"> 
-  <form class="m-3 flex-column justify-content-center"  action="#" method="post">
-    
-    <div class="form-group w-75">
-      <label class="color-parrafo" for="name">Nombre</label>
-      <input type="text" class="form-control form-control-sm" id="name" placeholder="...">
-    </div>
-    <div class="form-group w-75">
-      <label class="color-parrafo" for="email">Email</label>
-      <input type="text" class="form-control form-control-sm" id="email" placeholder="...">
-    </div>
-    <div class="form-group w-25">
-      <label class="color-parrafo" for="comments">Mensaje</label>
-      <textarea name="comments" id="comments" placeholder="..."></textarea>
-    </div>
-    <div class="form-group">
-    <button type="button" class="btn btn-outline-dark btn-lg" data-toggle="modal" data-target="#exampleModal"> <i class="mdi mdi-email-outline"></i> ENVIAR
-    </button>
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-          <img src="fotos/contacto/contacto10.svg" alt="contacto">
-          </div>
-          <div class="modal-footer">
-            <button data-dismiss="modal" type="submit" class="btn outline-dark btn-lg">OK</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
+  <div class="container">
+    <div class="row">
+      <div class="container col-12 col-sm-12 col-md-12 col-lg-6">
+        
 
-  </form>
-  <div>
-    <img class="mb-3 d-none d-lg-block d-xl-block" src="fotos/contacto/contacto4.svg" width="350px" alt="imagen-contacto">
-    <div class="contacto container">
-      <div class="flex-column align-items-end p-3">
-        <p class="text-center mr-3"> <i class="mdi mdi-whatsapp"></i> <a target="_blank" href="https://wa.me/541159566643">15-5956-6643</a> </p>
-        <p class="text-center"> <i class="mdi mdi-email"></i> <a target="_blank" href="mailto:info@tatianasoding.com">info@tatianasoding.com </a> </p>
+        <form class="m-3 flex-column justify-content-center"  action="#" method="post">
+    
+          <div class="form-group w-75">
+            <label class="color-parrafo" for="name">Nombre</label>
+            <input type="text" class="form-control form-control-sm" id="name" placeholder="...">
+          </div>
+          <div class="form-group w-75">
+            <label class="color-parrafo" for="email">Email</label>
+            <input type="text" class="form-control form-control-sm" id="email" placeholder="...">
+          </div>
+          <div class="form-group w-25">
+            <label class="color-parrafo" for="comments">Mensaje</label>
+            <textarea name="comments" id="comments" placeholder="..."></textarea>
+          </div>
+          <div class="form-group">
+            <button type="button" class="btn btn-outline-dark btn-lg" data-toggle="modal" data-target="#exampleModal"> <i class="mdi mdi-email-outline"></i> ENVIAR
+            </button>
+          <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="fotos/contacto/contacto10.svg" alt="contacto">
+                </div>
+                <div class="modal-footer">
+                  <button data-dismiss="modal" type="submit" class="btn outline-dark btn-lg">OK</button>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>   
+      
+      <div class="d-flex align-items-center col-12 col-sm-12 col-md-12 col-lg-6">
+
+          <div class="d-flex align-items-end">
+            <img class="mb-3 d-none d-lg-block d-xl-block" src="fotos/contacto/contacto4.svg" width="350px" alt="imagen-contacto">
+            <div class="contacto container">
+              <div class="flex-column align-items-end p-3">
+              <p class="text-center mr-3"> <i class="mdi mdi-whatsapp"></i> <a target="_blank" href="https://wa.me/541159566643">15-5956-6643</a> </p>
+              <p class="text-center"> <i class="mdi mdi-email"></i> <a target="_blank" href="mailto:info@tatianasoding.com">info@tatianasoding.com </a> </p>
+              </div>
+            </div>
+          </div>
+        
       </div>
     </div>
-  </div>
   </div>
 
 	<footer>
