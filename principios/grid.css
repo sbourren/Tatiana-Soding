@@ -1,0 +1,110 @@
+.grid-layout {
+
+display: grid;
+grid-gap: 30px;
+
+
+}
+
+
+.item {
+
+display: block;
+background-color: #444444;
+border-radius: 4px;
+color: #fff;
+padding: 10px;
+font-size: 20px;
+
+}
+
+
+.item:hover {
+
+	background-color: #9c27b0;
+}
+
+#ejemploColummns {
+
+grid-template-columns: 100px 200px 1fr;
+
+} 
+
+#ejemploSpan {
+
+	grid-template-columns: 100px 200px 1fr 1fr;
+	grid-template-rows: 200px 200px 200px;
+}
+
+
+#ejemploSpan .item.a {
+
+	grid-column: 1 / span 4;
+}
+
+#ejemploSpan .item.b {
+
+grid-row: 2 / span 3;
+
+}
+
+#ejemploSpan .item.c {
+
+grid-column: 2 / span 3;
+grid-row: 2 / span 3;
+
+}
+
+#ejemploSpan .item.d {
+
+grid-column: 1 / span 4;
+
+}
+
+#ejemploArea {
+
+	grid-template-columns: 200px 1fr;
+	grid-template-rows: 200px  600px 100px;
+	grid-auto-rows: 100px;
+	grid-template-areas: 
+		"logo header"
+		"aside content"
+		"aside content"
+		"footer footer"
+
+}
+
+#ejemploArea .item.a {
+
+	grid-area: logo;
+}
+
+#ejemploAreea .item.b {
+
+	grid-area: header;
+}
+
+#ejemploArea .item.c {
+
+	grid-area: aside;
+}
+
+#ejemploArea .item.d {
+
+	grid-area: content;
+}
+
+#ejemploArea .item.e {
+
+	grid-area: footer;
+}
+
+
+
+
+/*#ejemploRows {
+
+grid-template-rows: 100px 200px 100px;
+
+
+}
